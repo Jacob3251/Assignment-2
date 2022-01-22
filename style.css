@@ -29,10 +29,10 @@ header{
 .secondary-nav{
     display: none;
 }
-.res{
+/* .res{
     font-size: 50px;
     color: black;
-}
+} */
 .navbar ul{
     display: flex;
 }
@@ -184,6 +184,7 @@ hr{
 .ending{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-column-gap: 30px;
     margin: 0 10%;
 }
 .ending-image{
@@ -241,5 +242,145 @@ footer{
 
 /* Mobile Devices */
 
+@media only screen and (max-width: 688px){
+    header{
+        display: block;
+
+    }
+    .navbar{
+        display: none;
+    }
+    .ss{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .secondary-nav{
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
+    .fa-bars{
+        font-size: 25px;
+        padding-top: 7px;
+        color: black;
+    }
+    .secondary-nav h3{
+        margin: auto 40px;
+    }
+    .fa-shopping-cart{
+        font-size: 25px;
+        padding-top: 7px;
+        color: black;
+    }
+    /* Initial */
+    .upper-container{
+        width: 100%;
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+    .upper-container h1{
+        font-size: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+    }
+    .image-part{
+    width: 260px;
+    height: 200px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: pink; */
+    }
+    .image-part img{
+        width: 100%;
+    }
+    .image-part:hover img{
+        transform: scale(1.05);
+        transition: transform 1.5s ease-in-out;
+    }
+    .info-part{
+        margin: 0;
+        width: 100%;
+        /* background-color: red; */
+
+    }
+    .info-part p{
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 15px;
+    }
+    .button{
+        margin:0 auto;
+    }
+    
+
+}  
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    header{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar{
+        margin: 0;
+        width: 100%;
+        align-items: center;
+        /* background-color: blue; */
+    }
+    .top-title{
+        /* margin-top: auto; */
+        margin-left: 10px;
+    }
+    /* Initial-part */
+    .upper-container{
+        width: 100%;
+        margin: 0;
+        /* flex-direction: column-reverse; */
+    }
+    .upper-container h1{
+        font-size: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+    }
+    .image-part{
+    width: 260px;
+    height: 200px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: pink; */
+    }
+    .image-part img{
+        width: 100%;
+    }
+    .image-part:hover img{
+        transform: scale(1.05);
+        transition: transform 1.5s ease-in-out;
+    }
+    .info-part{
+        margin: 0;
+        width: 65%;
+        /* width: 100%; */
+        /* background-color: red; */
+
+    }
+    .info-part p{
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 15px;
+    }
+    .button{
+        margin:0 auto;
+    }
+}
+
+
+
 
