@@ -317,7 +317,16 @@ footer{
     .button{
         margin:0 auto;
     }
-    
+
+    /* optional icon part */
+    .optional-icon-part{
+        display: none;
+    }
+    /* product collection */
+    .Product-list{
+        grid-template-columns: repeat(1,1fr);   
+    }
+
 
 }  
 
@@ -377,7 +386,14 @@ footer{
         font-size: 15px;
     }
     .button{
-        margin:0 auto;
+        margin-left:50px;
+    }
+    /* optional icon part */
+    .optional-icon-part{
+        display: none;
+    }
+    .Product-list{
+        grid-template-columns: repeat(2,1fr);   
     }
 }
 
