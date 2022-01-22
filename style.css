@@ -333,7 +333,20 @@ footer{
     .button1{
         margin-right: 15px;
     }
-
+    /* ending- Article */
+    .ending{
+        display: flex;
+        flex-direction: column;
+        margin: 0 10%;
+        padding-top: 30px;
+        /* justify-content: center; */
+    }
+    .comment-part{
+        text-align: center;
+    }
+    .comment-part h3{
+        padding-top: 30px;
+    }
 
 }  
 
@@ -407,6 +420,10 @@ footer{
     }
     .button1{
         margin: 0 auto;
+    }
+    .ending{
+        padding-top: 40px;
+        grid-column-gap: 100px;
     }
 
 }
